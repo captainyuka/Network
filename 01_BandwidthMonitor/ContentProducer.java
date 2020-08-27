@@ -17,11 +17,11 @@ public class ContentProducer{
     this.dest = dest;
   }
 
-  public setSrc(ContentProducer src){
+  public void setSrc(ContentProducer src){
     this.src = src;
   }
 
-  public setDest(ContentConsumer dest){
+  public void setDest(ContentConsumer dest){
     this.dest = dest;
   }
 
