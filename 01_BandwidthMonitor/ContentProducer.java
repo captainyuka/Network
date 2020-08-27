@@ -49,7 +49,7 @@ public class ContentProducer{
 
     boolean success;
     byte[] data = null;
-    sucess = preProduction(limit);
+    success = preProduction(limit);
     if(success)
       data = doProduction(limit);
     
@@ -67,7 +67,7 @@ public class ContentProducer{
   }
 
   // Default preconsumption procedure. 
-  protected boolean preProduce(long limit){
+  protected boolean preProduction(long limit){
     return true;
   }
 
